@@ -1,0 +1,17 @@
+.logo__link{
+  @include logo-link;
+  text-decoration: none;
+}
+
+.logo__img{
+  @include logo-img;
+  width: 180px;
+  height: 52px;
+  transition: all 0.4s;
+}
+
+.logo__img:hover{
+  transform: scale(1.05);
+  transition: all 0.4s ease-in; 
+
+}

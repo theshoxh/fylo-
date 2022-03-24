@@ -1,0 +1,63 @@
+.feedback{
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.feedback__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.feedback__item{
+  position: relative;
+  max-width: 500px;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  background-color: #202A3C;
+  margin: 20px;
+  padding: 30px 25px 25px 25px;
+  transition: all 0.4s ease-in-out;
+}
+
+.feedback__item:hover{
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255,0.5);
+}
+
+.feedback__list{
+  background-image: url("../../img/quote.png");
+  background-repeat: no-repeat;
+  background-size: 50px 60px;
+  background-position: 10px -20px;
+}
+
+.feedback__quote{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 30px;
+  color: #fff;
+}
+
+.feedback__human-img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.div{
+  display: flex;
+  align-items: center;
+}
+
+.feedback__span{
+  font-size: 14px;
+  color: $text-color;
+}

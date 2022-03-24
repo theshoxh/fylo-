@@ -1,0 +1,149 @@
+.footer{
+  background-color: $footer-color;
+  padding: 170px 0px 80px 0px;
+  
+}
+
+.footer__wrapper{
+  display: flex;  
+  align-items: top;
+  justify-content: space-between;
+}
+
+.footer__location{
+  max-width: 360px;
+  height: 70px;
+}
+
+.footer-small{  
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.footer__location-img{
+  width: 24px;
+  height: 24px;
+  margin-top: -38px;  
+  margin-right: 10px;
+}
+
+.footer__text{
+  color: $text-color;
+  line-height: 25px;
+}
+
+.footer__contact{
+  display: block;
+  margin-top: 107px;
+  position: relative;
+}
+
+.footer__contact-link{
+  font-family: "Open Sans";
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: $text-color;
+  line-height: 7px;
+}
+
+.footer__contact-link1{
+  font-family: "Open Sans";
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: $text-color;
+  line-height: 7px;
+}
+
+.footer__contact-link:before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom:138px;
+  background-color: $text-color;
+  transition: all 0.3s;
+}
+
+.footer__contact-link1:before{
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom: 93px;
+  background-color: $text-color;
+  transition: all 0.3s;
+}
+
+.footer__contact-link:hover:before{
+  width: 100%;
+  right: 0;
+}
+
+.footer__contact-link1:hover:before{
+  width: 100%;
+  right: 0;
+}
+
+.footer__contact-img{
+  margin-bottom: -7px;
+}
+
+.footer__about-us{
+  list-style-type: none;
+  margin-top: 96px;
+  position: relative;
+}
+
+.footer__contact-us{
+  list-style-type: none;
+  margin-top: 96px;
+  position: relative;
+}
+
+.footer__about-us-item{
+  color: white;
+  line-height: 40px;
+}
+
+.footer__a-link{
+  color: $text-color;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer__a-link:hover{
+  transition: all 0.2s ease-in-out;
+  color: rgb(98, 224, 217);
+}
+
+.footer__social-media{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__social-items{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 13px;
+  margin-top: -15px;
+}
+
+.footer__media-img{
+  width: 32px;
+  height: 32px;
+}
+
+.footer__media-img:hover{
+  filter: invert(0.5) sepia(2);
+}

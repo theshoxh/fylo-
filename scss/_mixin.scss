@@ -1,0 +1,50 @@
+@mixin special-link{
+  color: $special-link-color;
+  text-decoration: none;
+}
+@mixin form-btn{
+  padding: 15px 27px;
+  margin: 0;
+  margin-left: 30px;
+  color: #fff;
+  text-decoration: none;
+  background-color:  #34A0CD;
+  box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
+  border-radius: 24px;
+}
+@mixin form-input{
+  padding: 15px 200px 15px 30px;
+  background-color: #fff;
+  border-radius: 24px;
+}
+@mixin ul-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+@mixin ul-item{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+@mixin item-link{
+  color: $text-color;
+  text-decoration: none;
+}
+@mixin logo-link {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+@mixin logo-img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+@mixin btn-style {
+  font-size: 14px;
+  padding: 15px 26px;
+  margin: 0;
+  background-color: $button-bgc-color;
+  color: #fff;
+}
